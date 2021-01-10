@@ -8,7 +8,5 @@ def my_all(array)
     i += 1
   end
 
-  if collection.include?(false)
-    false
-  end
+  if collection.include?(false) ? false : true
 end
