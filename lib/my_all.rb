@@ -4,7 +4,7 @@ def my_all?(array)
   collection = []
   i = 0
   while i < array.length
-    collection << array[i]
+    collection << yield(array[i])
     i += 1
   end
   collection.include?(false) ? true : false
