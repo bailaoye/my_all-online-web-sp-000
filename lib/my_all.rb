@@ -7,7 +7,5 @@ def my_all(array)
     collection << array[i]
     i += 1
   end
-
-  if collection.include?(false) ? false : true
-  end
+  collection.include?(false) ? false : true
 end
