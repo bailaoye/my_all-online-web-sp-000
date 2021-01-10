@@ -7,5 +7,5 @@ def my_all?(array)
     collection << yield(array[i])
     i += 1
   end
-  collection.include?(false) ? false : false
+  collection.include?(false) ? false : true
 end
