@@ -7,4 +7,6 @@ def my_all(array)
     collection << array[i]
     i += 1 
   end
+
+  if collection.include?(false)
 end
