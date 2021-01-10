@@ -9,5 +9,6 @@ def my_all(array)
   end
 
   if collection.include?(false)
+    false
   end
 end
